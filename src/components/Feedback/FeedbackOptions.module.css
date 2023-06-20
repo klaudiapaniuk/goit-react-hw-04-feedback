@@ -1,0 +1,7 @@
+.feedback_listButtons {
+  display: flex;
+  display: inline-flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
