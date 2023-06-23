@@ -7,7 +7,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
     <ul className={styles.feedback_listButtons}>
       {options.map(option => (
         <li key={option}>
-          <button type="submit" onClick={onLeaveFeedback}>
+          <button type="submit" onClick={() => onLeaveFeedback(`${option}`)}>
             {option}
           </button>
         </li>
